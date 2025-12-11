@@ -1,0 +1,63 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #e6e6ff;
+    margin: 0;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main box */
+.container {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Question text */
+#question {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Answer buttons */
+.btn {
+    display: block;
+    width: 100%;
+    background: #0078ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.btn:hover {
+    background: #005fcc;
+}
+
+/* Next button */
+#nextBtn {
+    margin-top: 20px;
+    background: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Next button hover */
+#nextBtn:hover {
+    background: #1e7e34;
+}
